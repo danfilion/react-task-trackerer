@@ -1,0 +1,43 @@
+This project is based on the tutorial from Traversy Media at : https://www.youtube.com/watch?v=w7ejDZ8SWv8
+
+
+
+npx create-react-app react-task-tracker
+
+cd into created app
+
+code .
+
+npm start
+
+npm i react-icons
+
+Deploy:
+npm run build
+
+To serve localy:
+serve -s build
+serve -s build -p 8000
+... where build is the folder where the files are in
+
+npm i -g serve
+or
+sudo npm i -g serve
+
+Json Server
+https://github.com/typicode/json-server#getting-started
+npm install -g json-server
+add script in package.json: "server": "json-server --watch db.json --port 5000"
+
+ npm run server
+
+
+
+ =================================================
+ To run:
+ in one tab:
+ npm serve
+ in another tab:
+ npm run server
+
+  =================================================
